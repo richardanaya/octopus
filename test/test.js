@@ -3,7 +3,7 @@
 
   var conn;
   // Connect to PeerJS, have server assign an ID instead of providing one
-  var peer = new Peer({debug: true, host: 'localhost', port: 8888});
+  var peer = new Peer({debug: true, host: 'octopus.jit.su', port: 80});
   peer.on('open', function(id){
     $('#pid').text(id);
   });  
