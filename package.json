@@ -1,0 +1,10 @@
+{
+	"name":"octopus",
+	"version":"0.0.1",
+	"dependencies":{
+		"peer":"latest"
+	},
+	"scripts":{
+		"start":"server.js"
+	}
+}
