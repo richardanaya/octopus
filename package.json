@@ -1,14 +1,15 @@
 {
-	"name":"octopus",
-	"version":"0.0.1",
-	"dependencies":{
-		"peer":"latest"
+	"name": "octopus",
+	"version": "0.0.1",
+	"dependencies": {
+		"peer": "latest"
 	},
-	"scripts":{
-		"start":"server.js"
+	"scripts": {
+		"start": "server.js"
 	},
 	"engines": {
-   		"node": "0.8.x",
-        	"npm": "1.2.x"
-	}
+		"node": "0.8.x",
+		"npm": "1.2.x"
+	},
+	"subdomain": "octopus"
 }
